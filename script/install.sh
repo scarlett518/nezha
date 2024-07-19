@@ -107,8 +107,8 @@ pre_check() {
         Docker_IMG="registry.cn-shanghai.aliyuncs.com\/naibahq\/nezha-dashboard"
     else
         if [ -z "$CN" ]; then
-            GITHUB_RAW_URL="raw.githubusercontent.com/naiba/nezha/master"
-            GITHUB_URL="github.com"
+            GITHUB_RAW_URL="gh.151314.xyz/raw.githubusercontent.com/naiba/nezha/master"
+            GITHUB_URL="gh.151314.xyz/github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" "
             Docker_IMG="ghcr.io\/naiba\/nezha-dashboard"
